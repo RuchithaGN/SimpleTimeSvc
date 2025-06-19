@@ -2,7 +2,7 @@
 docker build -t yourdockerhubusername/simpletimeservice .
 
 # Run the container
-docker run -p 5000:5000 yourdockerhubusername/simpletimeservice
+docker run -p 8080:8080 yourdockerhubusername/simpletimeservice
 
 # DockerHub & GitHub
 Push Docker image:
@@ -24,15 +24,15 @@ A tiny Flask-based microservice that returns the current timestamp and the clien
 
 ## 🐳 Docker Instructions
 
-### Build
+### Build:
 `
 docker build -t simpletimeservice .
 To run:
-docker run -p 5000:5000 simpletimeservice
+docker run -p 8080:8080 simpletimeservice
 
 To Test:
 # Open your browser or run:
-curl http://localhost:5000/
+curl http://localhost:8080/
 
 📦 DockerHub
 Available at: https://hub.docker.com/r/yourdockerhubusername/simpletimeservice
