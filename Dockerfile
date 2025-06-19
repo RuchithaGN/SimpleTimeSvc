@@ -19,7 +19,7 @@ RUN chown -R appuser /app
 USER appuser
 
 # Expose port
-EXPOSE 5000
+EXPOSE 8080
 
 # Start the app
 CMD ["python", "app.py"]
