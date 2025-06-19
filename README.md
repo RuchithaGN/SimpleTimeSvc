@@ -1,4 +1,3 @@
-# Build & Run Commands:
 # Build the Docker image
 docker build -t yourdockerhubusername/simpletimeservice .
 
